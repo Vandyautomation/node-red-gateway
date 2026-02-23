@@ -1,16 +1,382 @@
 [
     {
-        "id": "db1807dd301e2028",
+        "id": "e06f1f4bd38a9ed0",
         "type": "tab",
-        "label": "Flow 1",
+        "label": "Inisiasi",
         "disabled": false,
         "info": "",
         "env": []
     },
     {
-        "id": "a36874c598ab2d59",
+        "id": "6572b58936c1df9d",
+        "type": "tab",
+        "label": "HAITIAN Bld G",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b05d5ef5acff6fe7",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5a3c32fae23d768c",
+        "type": "group",
+        "z": "b05d5ef5acff6fe7",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "5db0b1c22cf5ed92",
+            "c95e0d7433aae1db",
+            "4fe1365bc45f10ca",
+            "2b0453a1c46572a7",
+            "5fbfaee642323ca5",
+            "2134cd996a28d9ec",
+            "017eaed6d23889d7",
+            "6d9ce8108befec60",
+            "016fa9aa2b353d9b",
+            "28ae37101e4bc73f",
+            "db8423d2dd6dc6a7",
+            "ee50ce7d64c20346",
+            "1e5a08865d68bb8f",
+            "e5487126bf3b76ff",
+            "fe0dc29011497e4f",
+            "85d8436b5e138d39",
+            "369f320bfa814031",
+            "22108fadab84920c",
+            "45ba9d7b08676afb",
+            "217cefa3738adeec",
+            "df11b94641842cd8",
+            "c674c66b571a050b",
+            "7189cb079d413d1a",
+            "d8cd4d74d457417a",
+            "b2ae02448b021845",
+            "e3b70b861aae0e60",
+            "1a167e28f0610827",
+            "ee36e249b4ddf2ef",
+            "1d52b4e83e28b8e1",
+            "b38a04ece008fcb7",
+            "b3c6f51295795c30",
+            "541dead65c6eba4b",
+            "7fdf3452ee545d48",
+            "b574b39b6460d93a",
+            "b0c6a3a5dc7554eb",
+            "7e84637652d6b107",
+            "5b446c8b62498c94",
+            "bf5e5450a9b37540",
+            "ec4d47450551700d",
+            "923203df57543434",
+            "f34c1721264d77cc",
+            "1e7efb9178ddda5d",
+            "859bc2019987c422",
+            "621ad12de6dd8c2a",
+            "2ac29df49c4a4b97",
+            "e0b34f591aab6383",
+            "f69f42d6883290b7",
+            "738d3d7b58561209"
+        ],
+        "x": 1054,
+        "y": 711.5,
+        "w": 962,
+        "h": 1177
+    },
+    {
+        "id": "14d51ff12638f373",
+        "type": "group",
+        "z": "b05d5ef5acff6fe7",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "a81c3948770c3736",
+            "69f3d3afcec24806",
+            "8648a5107dfd006a",
+            "7c094b55e02d4819",
+            "94a66e1d20115232",
+            "606aa22325e7ba91",
+            "347ff022da081956",
+            "862782d7413e1766",
+            "511f146f7bdc84e9",
+            "e6ff3e3f4df87f4f",
+            "fff072acba24fd88",
+            "e891a8d81405ef0a",
+            "a1e1efb1d53c10e3",
+            "3c4a5d64f0ef4795",
+            "db15b9aa8358e575",
+            "72207e9457a42c7e",
+            "56e8e931cdfef4d2",
+            "105ac7aced4c1be9",
+            "03bd9bdc909a2afc",
+            "eb3fa56f516a0bba",
+            "d4dbc5163f17b5e1",
+            "bef1f687490b6904",
+            "820971b1ca2ca751",
+            "96d68798af7de6e6",
+            "1123c73952d8b704",
+            "6a43ec83c48a1356",
+            "8601f924e96a5f84",
+            "8b1b22550238ecb1",
+            "a61709756dafea36"
+        ],
+        "x": 34,
+        "y": 1519,
+        "w": 962,
+        "h": 729.5
+    },
+    {
+        "id": "edaf4ee7da7eab55",
+        "type": "junction",
+        "z": "6572b58936c1df9d",
+        "x": 1220,
+        "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "78ab995fbea46f0f",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "dmksrv02",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "532641d33b405b7a",
+        "type": "OpcUa-Endpoint",
+        "name": "Haitian G2",
+        "endpoint": "opc.tcp://192.168.140.1:4842",
+        "secpol": "None",
+        "secmode": "None",
+        "none": true,
+        "login": false,
+        "usercert": false,
+        "usercertificate": "",
+        "userprivatekey": ""
+    },
+    {
+        "id": "c3f2b9ebf28a256a",
+        "type": "OpcUa-Endpoint",
+        "name": "",
+        "endpoint": "opc.tcp://192.168.140.1:4842",
+        "secpol": "None",
+        "secmode": "None",
+        "none": true,
+        "login": false,
+        "usercert": false,
+        "usercertificate": "",
+        "userprivatekey": ""
+    },
+    {
+        "id": "5bc383f125dbdaf6",
+        "type": "MSSQL-CN",
+        "name": "dmksrv03",
+        "server": "10.160.50.15",
+        "encyption": true,
+        "database": "IoT"
+    },
+    {
+        "id": "11e6a5ec64f99cb0",
+        "type": "MSSQL-CN",
+        "name": "dmksrv03",
+        "server": "10.160.50.15",
+        "encyption": true,
+        "database": "IoT"
+    },
+    {
+        "id": "addde2c5eeaa103c",
+        "type": "exec",
+        "z": "e06f1f4bd38a9ed0",
+        "command": "hostname -I",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 310,
+        "y": 200,
+        "wires": [
+            [
+                "ab6ebdf72dd84cd3"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "2cf91c2a02c3e3d1",
         "type": "inject",
-        "z": "db1807dd301e2028",
+        "z": "e06f1f4bd38a9ed0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "30",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 200,
+        "wires": [
+            [
+                "addde2c5eeaa103c"
+            ]
+        ]
+    },
+    {
+        "id": "ab6ebdf72dd84cd3",
+        "type": "mqtt out",
+        "z": "e06f1f4bd38a9ed0",
+        "name": "",
+        "topic": "rpi/ip/Haitian/2",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "78ab995fbea46f0f",
+        "x": 520,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "9377347301aa79d8",
+        "type": "inject",
+        "z": "e06f1f4bd38a9ed0",
+        "name": "Master Data",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "59 23 * * *",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 300,
+        "wires": [
+            [
+                "cd360592a639d18c"
+            ]
+        ]
+    },
+    {
+        "id": "cd360592a639d18c",
+        "type": "MSSQL",
+        "z": "e06f1f4bd38a9ed0",
+        "mssqlCN": "5bc383f125dbdaf6",
+        "name": "MachineMST_G",
+        "query": "select trim(MchNumber) as MchNumber, trim(MchID) as MchID, trim(ipOPC) as ipOPC from MachineMST\nwhere MchLoc = 'INJ Bld G' and UAP = 'BASIC' and Brand = 'HAITIAN' and MchNumber != '' and Active = 1\norder by MchNumber ASC",
+        "outField": "payload",
+        "x": 360,
+        "y": 300,
+        "wires": [
+            [
+                "882c267d81c06e5a"
+            ]
+        ]
+    },
+    {
+        "id": "882c267d81c06e5a",
+        "type": "function",
+        "z": "e06f1f4bd38a9ed0",
+        "name": "function 4",
+        "func": "const filterMachineData = (data) => {\n    const result = {};\n    data.forEach(item => {\n        // Kita simpan sebagai objek agar bisa menampung banyak info\n        result[item.MchNumber.toString()] = {\n            mchId: item.MchID,\n            ip: item.ipOPC\n        };\n    });\n    return result;\n};\n\n// Ambil data dari query MSSQL\nconst inputData = msg.payload;\n\n// Proses data\nconst result = filterMachineData(inputData);\n\n// Set ke payload untuk debug (opsional)\nmsg.payload = result;\n\n// Simpan ke Global Variable\nglobal.set(\"MchID_MST_G_HAITIAN\", result);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b685a006154725d1",
+        "type": "function",
+        "z": "e06f1f4bd38a9ed0",
+        "name": "function 3",
+        "func": "const divisorMap = {\n    // Charge\n    \"ns=2;i=20010\": { title: \"Charge_BackPress_S1\", divisor: 10000, unit: \"MPa\" },\n    \"ns=2;i=20011\": { title: \"Charge_BackPress_S2\", divisor: 10000, unit: \"MPa\" },\n    \"ns=2;i=20012\": { title: \"Charge_BackPress_SE\", divisor: 10000, unit: \"MPa\" },\n    \"ns=2;i=20037\": { title: \"Charge_Pressure_S1\", divisor: 10, unit: \"MPa\" },\n    \"ns=2;i=20038\": { title: \"Charge_Pressure_S2\", divisor: 10, unit: \"MPa\" },\n    \"ns=2;i=20039\": { title: \"Charge_Pressure_SE\", divisor: 10, unit: \"MPa\" },\n    \"ns=2;i=20042\": { title: \"Charge_Position_S1\", divisor: 10000, unit: \"\" },\n    \"ns=2;i=20043\": { title: \"Charge_Position_S2\", divisor: 10000, unit: \"\" },\n    \"ns=2;i=20044\": { title: \"Charge_Position_SE\", divisor: 10000, unit: \"\" },\n    \"ns=2;i=20046\": { title: \"Charge_Speed_S1\", divisor: 1, unit: \"%\" },\n    \"ns=2;i=20047\": { title: \"Charge_Speed_S2\", divisor: 1, unit: \"%\" },\n    \"ns=2;i=20048\": { title: \"Charge_Speed_S3\", divisor: 1, unit: \"%\" },\n    // COOLING TIME\n    \"ns=2;i=20056\": { title: \"Cooling_Time\", divisor: 1000, unit: \"\" },\n    // CORE\n    \"ns=2;i=20073\": { title: \"Core_DelayTime_AIn\", divisor: 1, unit: \"\" },\n    \"ns=2;i=20076\": { title: \"Core_Mode_AIn\", divisor: 1, unit: \"\" },\n    \"ns=2;i=20079\": { title: \"Core_MoldPost_AIn\", divisor: 10000, unit: \"\" },\n    \"ns=2;i=20085\": { title: \"Core_Time_AIn\", divisor: 1000, unit: \"\" },\n    \"ns=2;i=20094\": { title: \"Core_DelayTime_AOut\", divisor: 1, unit: \"\" },\n    \"ns=2;i=20097\": { title: \"Core_Mode_AOut\", divisor: 1, unit: \"\" },\n    \"ns=2;i=20100\": { title: \"Core_MoldPost_AOut\", divisor: 10000, unit: \"\" },\n    \"ns=2;i=20103\": { title: \"Core_Time_AOut\", divisor: 1000, unit: \"\" },\n    \"ns=2;i=20109\": { title: \"Core_Flow_AIn\", divisor: 10, unit: \"\" },\n    \"ns=2;i=20110\": { title: \"Core_Press_AIn\", divisor: 1, unit: \"\" },\n    \"ns=2;i=20111\": { title: \"Core_Flow_AOut\", divisor: 10, unit: \"\" },\n    \"ns=2;i=20112\": { title: \"Core_Press_AOut\", divisor: 1, unit: \"\" },\n    // EJECTOR BWD\n    \"ns=2;i=20146\": { title: \"EjectBWD_Pressure_S1\", divisor: 10000, unit: \"MPa\" },\n    \"ns=2;i=20148\": { title: \"EjectBWD_Pressure_SE\", divisor: 10000, unit: \"MPa\" },\n    \"ns=2;i=20149\": { title: \"EjectBWD_Post_S1\", divisor: 10000, unit: \"mm\" },\n    \"ns=2;i=20151\": { title: \"EjectBWD_Post_SE\", divisor: 10000, unit: \"mm\" },\n    \"ns=2;i=20153\": { title: \"EjectBWD_Speed_S1\", divisor: 10, unit: \"%\" },\n    \"ns=2;i=20155\": { title: \"EjectBWD_Speed_SE\", divisor: 10, unit: \"%\" },\n    // EJECTOR FWD\n    \"ns=2;i=20156\": { title: \"EjectFWD_Pressure_S1\", divisor: 10000, unit: \"MPa\" },\n    \"ns=2;i=20158\": { title: \"EjectFWD_Pressure_SE\", divisor: 10000, unit: \"MPa\" },\n    \"ns=2;i=20159\": { title: \"EjectFWD_Post_S1\", divisor: 10000, unit: \"mm\" },\n    \"ns=2;i=20161\": { title: \"EjectFWD_Post_SE\", divisor: 10000, unit: \"mm\" },\n    \"ns=2;i=20163\": { title: \"EjectFWD_Speed_S1\", divisor: 10, unit: \"%\" },\n    \"ns=2;i=20165\": { title: \"EjectFWD_Speed_SE\", divisor: 10, unit: \"%\" },\n    // HOLDING\n    \"ns=2;i=20190\": { title: \"Holding_Pressure_P1\", divisor: 10000, unit: \"MPa\" },\n    \"ns=2;i=20191\": { title: \"Holding_Pressure_P2\", divisor: 10000, unit: \"MPa\" },\n    \"ns=2;i=20192\": { title: \"Holding_Pressure_P3\", divisor: 10000, unit: \"MPa\" },\n    \"ns=2;i=20195\": { title: \"Holding_Time_P1\", divisor: 1000, unit: \"s\" },\n    \"ns=2;i=20196\": { title: \"Holding_Time_P2\", divisor: 1000, unit: \"s\" },\n    \"ns=2;i=20197\": { title: \"Holding_Time_P3\", divisor: 1000, unit: \"s\" },\n    \"ns=2;i=20596\": { title: \"Holding_HoldSpeed_P1\", divisor: 10000, unit: \"%\" },\n    // INJECT\n    \"ns=2;i=20250\": { title: \"Inject_Pressure_S1\", divisor: 10000, unit: \"MPa\" },\n    \"ns=2;i=20251\": { title: \"Inject_Pressure_S2\", divisor: 10000, unit: \"MPa\" },\n    \"ns=2;i=20252\": { title: \"Inject_Pressure_S3\", divisor: 10000, unit: \"MPa\" },\n    \"ns=2;i=20255\": { title: \"Inject_Pressure_SE\", divisor: 10000, unit: \"MPa\" },\n    \"ns=2;i=20256\": { title: \"Inject_Position_S1\", divisor: 10000, unit: \"mm\" },\n    \"ns=2;i=20257\": { title: \"Inject_Position_S2\", divisor: 10000, unit: \"mm\" },\n    \"ns=2;i=20258\": { title: \"Inject_Position_S3\", divisor: 10000, unit: \"mm\" },\n    \"ns=2;i=20261\": { title: \"Inject_Position_SE\", divisor: 10000, unit: \"mm\" },\n    \"ns=2;i=20265\": { title: \"Inject_Speed_S1\", divisor: 10000, unit: \"mm/s\" },\n    \"ns=2;i=20266\": { title: \"Inject_Speed_S2\", divisor: 10000, unit: \"mm/s\" },\n    \"ns=2;i=20267\": { title: \"Inject_Speed_S3\", divisor: 10000, unit: \"mm/s\" },\n    \"ns=2;i=20270\": { title: \"Inject_Speed_SE\", divisor: 10000, unit: \"mm/s\" },\n    // CLOSE MOLD\n    \"ns=2;i=20306\": { title: \"CloseMold_Position_S1\", divisor: 10000, unit: \"mm\" },\n    \"ns=2;i=20307\": { title: \"CloseMold_Position_S2\", divisor: 10000, unit: \"mm\" },\n    \"ns=2;i=20308\": { title: \"CloseMold_Position_S3\", divisor: 10000, unit: \"mm\" },\n    \"ns=2;i=20309\": { title: \"CloseMold_Position_LP\", divisor: 10000, unit: \"mm\" },\n    \"ns=2;i=20310\": { title: \"CloseMold_Position_HP\", divisor: 10000, unit: \"mm\" },\n    \"ns=2;i=20311\": { title: \"CloseMold_Position_SE\", divisor: 10000, unit: \"mm\" },\n    \"ns=2;i=20314\": { title: \"CloseMold_Speed_S1\", divisor: 10, unit: \"%\" },\n    \"ns=2;i=20315\": { title: \"CloseMold_Speed_S2\", divisor: 10, unit: \"%\" },\n    \"ns=2;i=20316\": { title: \"CloseMold_Speed_S3\", divisor: 10, unit: \"%\" },\n    \"ns=2;i=20317\": { title: \"CloseMold_Speed_LP\", divisor: 10, unit: \"%\" },\n    \"ns=2;i=20318\": { title: \"CloseMold_Speed_HP\", divisor: 10, unit: \"%\" },\n    \"ns=2;i=20319\": { title: \"CloseMold_Speed_SE\", divisor: 10, unit: \"%\" },\n    // Open Mold\n    \"ns=2;i=20330\": { title: \"OpenMold_Position_S1\", divisor: 10000, unit: \"%\" },\n    \"ns=2;i=20331\": { title: \"OpenMold_Position_S2\", divisor: 10000, unit: \"%\" },\n    \"ns=2;i=20332\": { title: \"OpenMold_Position_S3\", divisor: 10000, unit: \"%\" },\n    \"ns=2;i=20333\": { title: \"OpenMold_Position_S4\", divisor: 10000, unit: \"%\" },\n    \"ns=2;i=20334\": { title: \"OpenMold_Position_S5\", divisor: 10000, unit: \"%\" },\n    \"ns=2;i=20335\": { title: \"OpenMold_Position_SE\", divisor: 10000, unit: \"%\" },\n    \"ns=2;i=20337\": { title: \"OpenMold_Speed_S1\", divisor: 10, unit: \"%\" },\n    \"ns=2;i=20338\": { title: \"OpenMold_Speed_S2\", divisor: 10, unit: \"%\" },\n    \"ns=2;i=20339\": { title: \"OpenMold_Speed_S3\", divisor: 10, unit: \"%\" },\n    \"ns=2;i=20340\": { title: \"OpenMold_Speed_S4\", divisor: 10, unit: \"%\" },\n    \"ns=2;i=20341\": { title: \"OpenMold_Speed_S5\", divisor: 10, unit: \"%\" },\n    \"ns=2;i=20342\": { title: \"OpenMold_Speed_SE\", divisor: 10, unit: \"%\" },\n    // NOTE / CUSHION\n    \"ns=2;i=20505\": { title: \"Note_Cushion\", divisor: 10000, unit: \"\" },\n    \"ns=2;i=20506\": { title: \"Note_CycleTime\", divisor: 1000, unit: \"\" },\n    \"ns=2;i=20507\": { title: \"Note_ActInjtTime\", divisor: 1000, unit: \"\" },\n    \"ns=2;i=20511\": { title: \"Note_PlastTime\", divisor: 1000, unit: \"s\" },\n    \"ns=2;i=20509\": { title: \"Note_InjStartPos\", divisor: 10000, unit: \"mm\" },\n    \"ns=2;i=20510\": { title: \"Note_MinCushionPos\", divisor: 10000, unit: \"mm\" },\n    // SUCK BACK AFTER CHARGE\n    \"ns=2;i=20554\": { title: \"SuckBackAfterCharge_mm\", divisor: 10000, unit: \"mm\" },\n    \"ns=2;i=20555\": { title: \"SuckBackAfterCharge_pct\", divisor: 100000, unit: \"%\" },\n    // TEMPERATURE - REAL\n    \"ns=2;i=20556\": { title: \"Temperature_Real_Zone1\", divisor: 10, unit: \"\" },\n    \"ns=2;i=20557\": { title: \"Temperature_Real_Zone2\", divisor: 10, unit: \"\" },\n    \"ns=2;i=20558\": { title: \"Temperature_Real_Zone3\", divisor: 10, unit: \"\" },\n    \"ns=2;i=20559\": { title: \"Temperature_Real_Zone4\", divisor: 10, unit: \"\" },\n    \"ns=2;i=20560\": { title: \"Temperature_Real_Zone5\", divisor: 10, unit: \"\" },\n    \"ns=2;i=20561\": { title: \"Temperature_Real_Zone6\", divisor: 10, unit: \"\" },\n    // TEMPERATURE - SET\n    \"ns=2;i=20564\": { title: \"Temperature_Set_Zone1\", divisor: 10, unit: \"\" },\n    \"ns=2;i=20565\": { title: \"Temperature_Set_Zone2\", divisor: 10, unit: \"\" },\n    \"ns=2;i=20566\": { title: \"Temperature_Set_Zone3\", divisor: 10, unit: \"\" },\n    \"ns=2;i=20567\": { title: \"Temperature_Set_Zone4\", divisor: 10, unit: \"\" },\n    \"ns=2;i=20568\": { title: \"Temperature_Set_Zone5\", divisor: 10, unit: \"\" },\n    \"ns=2;i=20569\": { title: \"Temperature_Set_Zone6\", divisor: 10, unit: \"\" },\n    // TEMPERATURE - HOPPER\n    \"ns=2;i=20610\": { title: \"Temperature_Real_Hopper\", divisor: 10, unit: \"C\" },\n    \"ns=2;i=20611\": { title: \"Temperature_Set_Hopper\", divisor: 10, unit: \"C\" },\n    \"ns=2;i=20612\": { title: \"Temperature_Max_Hopper\", divisor: 10, unit: \"C\" },\n    \"ns=2;i=20613\": { title: \"Temperature_Min_Hopper\", divisor: 10, unit: \"C\" },\n    // V/P\n    \"ns=2;i=20624\": { title: \"VP_Mode\", divisor: 1, unit: \"\" },\n    \"ns=2;i=20514\": { title: \"VP_Time\", divisor: 1000, unit: \"\" },\n    \"ns=2;i=20512\": { title: \"VP_Position\", divisor: 10000, unit: \"\" },\n    // TONNAGE\n    \"ns=2;i=20049\": { title: \"Tonnage_Set\", divisor: 100, unit: \"\" },\n    // FRED\n    \"ns=2;i=20028\": { title: \"CarriageBWD_SE\", divisor: 10000, unit: \"\" }\n    // Tambahkan sampai 130 parameter di sini\n};\n\nglobal.set(\"HaitianZE3600_Parameter_Master\", divisorMap);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "36ee699a1f4935c1",
+        "type": "inject",
+        "z": "e06f1f4bd38a9ed0",
         "name": "",
         "props": [
             {
@@ -28,10 +394,5253 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 320,
+        "x": 120,
+        "y": 400,
+        "wires": [
+            [
+                "b685a006154725d1"
+            ]
+        ]
+    },
+    {
+        "id": "547294b33c716ed5",
+        "type": "comment",
+        "z": "e06f1f4bd38a9ed0",
+        "name": "Master Data Param ZE3600",
+        "info": "",
+        "x": 160,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "c28a96b82ec4d716",
+        "type": "comment",
+        "z": "e06f1f4bd38a9ed0",
+        "name": "Master Data MachineMST ZE3600",
+        "info": "",
+        "x": 180,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "fdf07d5ac7434bb2",
+        "type": "comment",
+        "z": "e06f1f4bd38a9ed0",
+        "name": "IP Haitian",
+        "info": "",
+        "x": 100,
         "y": 160,
+        "wires": []
+    },
+    {
+        "id": "a36874c598ab2d59",
+        "type": "inject",
+        "z": "e06f1f4bd38a9ed0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 500,
         "wires": [
             []
         ]
+    },
+    {
+        "id": "d43aae623f4bd6f3",
+        "type": "comment",
+        "z": "6572b58936c1df9d",
+        "name": "CHARG",
+        "info": "1. Position\n2. Speed\n3. Pressure\n4. Back Press",
+        "x": 1100,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "4e8b7323974e303f",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Position 1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20042",
+        "x": 1330,
+        "y": 160,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "6158a18c40ccd0c4",
+        "type": "function",
+        "z": "6572b58936c1df9d",
+        "name": "Collector & Global Store",
+        "func": "const mchId = flow.get(\"last_mch_id\");\nconst ip = flow.get(\"last_ip\");\n\nif (mchId && msg.payload !== undefined && !msg.endpoint) {\n    const globalVarName = \"Cache_\" + mchId;\n    let machineData = global.get(globalVarName) || {};\n    \n    // 1. Ambil Master Map yang berisi Judul & Divisor\n    const paramMaster = global.get(\"HaitianZE3600_Parameter_Master\") || {};\n    \n    const nodeId = msg.topic;\n    const rawValue = msg.payload;\n\n    // 2. Ambil metadata berdasarkan NodeId\n    const meta = paramMaster[nodeId] || { title: \"Unknown\", divisor: 1, unit: \"\" };\n\n    // 3. Kalkulasi Nilai Akhir\n    const finalValue = rawValue / meta.divisor;\n\n    // 4. Update data mesin dengan struktur yang lebih lengkap\n    // Kita simpan value dan title agar JSON di SQL nanti lebih informatif\n    machineData[nodeId] = {\n        title: meta.title,\n        value: finalValue,\n        unit: meta.unit,\n        raw: rawValue\n    };\n    \n    machineData[\"last_sync\"] = new Date().toISOString();\n    machineData[\"ip\"] = ip;\n\n    global.set(globalVarName, machineData);\n\n    msg.payload = {\n        mchId: mchId,\n        nodeId: nodeId,\n        detail: machineData[nodeId]\n    };\n\n    node.status({fill:\"green\", shape:\"dot\", text: mchId + \": \" + meta.title + \" updated\"});\n    return msg;\n}\nreturn null;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1910,
+        "y": 500,
+        "wires": [
+            [
+                "9003c2957b63b7fe",
+                "4b5b2b175c191d54"
+            ]
+        ]
+    },
+    {
+        "id": "c8157340ac207777",
+        "type": "function",
+        "z": "6572b58936c1df9d",
+        "name": "Identifier (Output 2)",
+        "func": "const masterData = global.get(\"MchID_MST_G_HAITIAN\") || {};\nconst endpoint = msg.endpoint || \"\";\nconst ipMatch = endpoint.match(/\\/\\/(.*?):/);\nconst ip = ipMatch ? ipMatch[1] : \"0.0.0.0\";\n\nlet machine_id = \"Unknown\";\nfor (let key in masterData) {\n    if (masterData[key].ip === ip) {\n        machine_id = masterData[key].mchId;\n        break;\n    }\n}\n\nflow.set(\"last_mch_id\", machine_id);\nflow.set(\"last_ip\", ip);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1770,
+        "y": 560,
+        "wires": [
+            [
+                "6158a18c40ccd0c4"
+            ]
+        ]
+    },
+    {
+        "id": "9003c2957b63b7fe",
+        "type": "debug",
+        "z": "6572b58936c1df9d",
+        "name": "Debug Output",
+        "active": false,
+        "tosidebar": true,
+        "x": 2120,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "2ad6ae4bc05821f9",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Position2",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20043",
+        "x": 1330,
+        "y": 200,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "b4d14fdfc22a4add",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Position3",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20044",
+        "x": 1330,
+        "y": 240,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "fa439395709069ab",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Speed1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20046",
+        "x": 1320,
+        "y": 280,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "6324b3655a31c675",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Speed2",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20047",
+        "x": 1320,
+        "y": 320,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "f8635d6dffeda53b",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Speed3",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20048",
+        "x": 1320,
+        "y": 360,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "ae9e67826760e68d",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Back Press S1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20010",
+        "x": 1140,
+        "y": 160,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "afdb505e5e9566f3",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Back Press S2",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20011",
+        "x": 1140,
+        "y": 200,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "d9b743a5cb1769cd",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Back Press SE",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20012",
+        "x": 1140,
+        "y": 240,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "5d287b267385442a",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Pressure S1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20037",
+        "x": 1140,
+        "y": 280,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "21527e5a8f16e1a7",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Pressure S2",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20038",
+        "x": 1140,
+        "y": 320,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "0d10b6bf3d26649b",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Pressure SE",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20039",
+        "x": 1140,
+        "y": 360,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "4b5b2b175c191d54",
+        "type": "function",
+        "z": "6572b58936c1df9d",
+        "name": "function 8",
+        "func": "// 1. Ambil nama variabel global asal (Cache_...)\n// Gunakan optional chaining atau fallback agar tidak error\nconst mchId = msg.payload ? msg.payload.mchId : null;\n\nif (!mchId) {\n    node.error(\"mchId tidak ditemukan dalam msg.payload!\");\n    return null;\n}\n\nconst sourceGlobalName = \"Cache_\" + mchId;\nconst targetGlobalName = \"paramset_\" + mchId;\n\n// 2. Ambil data mentah dari global cache\nconst machineData = global.get(sourceGlobalName);\n\nif (machineData) {\n    let cleanParamSet = {};\n\n    for (let nodeId in machineData) {\n        // Abaikan metadata\n        if (nodeId !== \"last_sync\" && nodeId !== \"ip\") {\n            const item = machineData[nodeId];\n            if (item && item.title) {\n                // Gunakan nama Title sebagai Key\n                cleanParamSet[item.title] = item.value;\n            }\n        }\n    }\n\n    // 3. SIMPAN ke Global Variable (Object)\n    global.set(targetGlobalName, cleanParamSet);\n\n    // 4. Siapkan payload untuk SQL\n    msg.payload = {\n        machineId: mchId,\n        paramset: JSON.stringify(cleanParamSet)\n    };\n\n    node.status({ fill: \"blue\", shape: \"dot\", text: \"Stored: \" + targetGlobalName });\n    return msg;\n} else {\n    node.warn(\"Source Global \" + sourceGlobalName + \" masih kosong!\");\n    node.status({ fill: \"red\", shape: \"ring\", text: sourceGlobalName + \" empty\" });\n    return null;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2150,
+        "y": 580,
+        "wires": [
+            [
+                "e601e0b6db92e7b9"
+            ]
+        ]
+    },
+    {
+        "id": "e601e0b6db92e7b9",
+        "type": "debug",
+        "z": "6572b58936c1df9d",
+        "name": "debug 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.paramset",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2330,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "trigger_5min",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Every 1 hour",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "0 0-23 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1710,
+        "y": 840,
+        "wires": [
+            [
+                "prep_sql_bulk"
+            ]
+        ]
+    },
+    {
+        "id": "prep_sql_bulk",
+        "type": "function",
+        "z": "6572b58936c1df9d",
+        "name": "Prepare Bulk SQL",
+        "func": "const globalKeys = global.keys();\nconst paramsetKeys = globalKeys.filter(key => key.startsWith(\"paramset_\"));\n\nif (paramsetKeys.length === 0) {\n    node.status({ fill: \"red\", shape: \"ring\", text: \"No data to insert\" });\n    return null;\n}\n\nlet messages = [];\n\nparamsetKeys.forEach(key => {\n\n    const mchId = key.replace(\"paramset_\", \"\");\n    const cleanData = global.get(key);\n\n    if (cleanData && Object.keys(cleanData).length > 0) {\n\n        const paramsetString = JSON.stringify(cleanData).replace(/'/g, \"''\");\n\n        const sql = `\n        INSERT INTO MachineParameterSettingTRX\n        (\n            machineId,\n            paramset,\n            material_id,\n            material_name,\n            cavity,\n            created_at\n        )\n        SELECT TOP 1\n            '${mchId}',\n            '${paramsetString}',\n            c.material_id,\n            c.material_name,\n            t.actual_cvt,\n            CAST(SYSDATETIMEOFFSET() AT TIME ZONE 'SE Asia Standard Time' AS DATETIME)\n        FROM iot.dbo.countboard_tasks t\n        JOIN IoT.dbo.machinemst m WITH (NOLOCK) \n            ON m.MchDesc = t.machine_name\n        JOIN IoT.dbo.coois c WITH (NOLOCK) \n            ON c.po_name = t.po_name \n            AND ISNULL(c.is_deleted,0)=0\n        WHERE m.MchID = '${mchId}'\n        ORDER BY t.created_at DESC, t.id DESC\n        `;\n\n        messages.push({\n            payload: sql\n        });\n    }\n});\n\nif (messages.length > 0) {\n    node.status({ fill: \"green\", shape: \"dot\", text: \"Prepared \" + messages.length + \" machines\" });\n    return [messages];\n} else {\n    node.status({ fill: \"yellow\", shape: \"ring\", text: \"Data keys exist but objects empty\" });\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1970,
+        "y": 840,
+        "wires": [
+            [
+                "mssql_node_id",
+                "72b748810a4cc1bb"
+            ]
+        ]
+    },
+    {
+        "id": "mssql_node_id",
+        "type": "MSSQL",
+        "z": "6572b58936c1df9d",
+        "mssqlCN": "5bc383f125dbdaf6",
+        "name": "SQL Server Insert",
+        "query": "{{{payload}}}",
+        "outField": "payload",
+        "x": 2220,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "72b748810a4cc1bb",
+        "type": "debug",
+        "z": "6572b58936c1df9d",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2210,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "07ce8d8d3d0c46ec",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Delay Time A In",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20073",
+        "x": 830,
+        "y": 160,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "95655d8f592c7a23",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Mode A In",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20076",
+        "x": 810,
+        "y": 200,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "42e4aa0e72f8e768",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Mold Post A In",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20079",
+        "x": 820,
+        "y": 240,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "74465c2e0bc08fc4",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Time A In",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20085",
+        "x": 810,
+        "y": 280,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "b318278f58788f4d",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Delay Time A Out",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20094",
+        "x": 830,
+        "y": 320,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "167a129a4cdd262c",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Mode A Out",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20097",
+        "x": 810,
+        "y": 360,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "938dbac3b10ee359",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Mold Post A Out",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20100",
+        "x": 630,
+        "y": 160,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "5ff8d15bc51169fd",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Time A Out",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20103",
+        "x": 610,
+        "y": 200,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "ca1e9f91523c2e18",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Flow A In",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20109",
+        "x": 610,
+        "y": 240,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "ab35652b50b06022",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Press A In",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20110",
+        "x": 610,
+        "y": 280,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "74cd71c63493d75a",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Flow A Out",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20111",
+        "x": 610,
+        "y": 320,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "a3083bd975a90112",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Press A Out",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20112",
+        "x": 610,
+        "y": 360,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "26ddfc9a5e0a5d0f",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Cooling Time",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20056",
+        "x": 1580,
+        "y": 160,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "a047a098be121f07",
+        "type": "comment",
+        "z": "6572b58936c1df9d",
+        "name": "CORE",
+        "info": "1. Position\n2. Speed\n3. Pressure\n4. Back Press",
+        "x": 570,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "3b333f7c1e84da4e",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Pressure S1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20146",
+        "x": 380,
+        "y": 160,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "db83591cbf90b877",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Pressure SE",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20148",
+        "x": 380,
+        "y": 200,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "8b0ea4b90f250824",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Position S1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20149",
+        "x": 370,
+        "y": 240,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "961e8a854ce263ec",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Position SE",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20151",
+        "x": 370,
+        "y": 280,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "69a981f70db6cad9",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Speed S1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20153",
+        "x": 370,
+        "y": 320,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "c5b297637db33c63",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Speed SE",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20155",
+        "x": 370,
+        "y": 360,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "f3b22150b0541479",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Pressure S1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20156",
+        "x": 180,
+        "y": 160,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "11da850dbe22bd4d",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Pressure SE",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20158",
+        "x": 180,
+        "y": 200,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "1c687cdd75dd4574",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Position S1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20159",
+        "x": 170,
+        "y": 240,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "b91bfbc4286b4c8b",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Position SE",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20161",
+        "x": 170,
+        "y": 280,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "e499c85d9a9ad94b",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Speed S1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20163",
+        "x": 170,
+        "y": 320,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "94d1cf80b5361e29",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Speed SE ",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20165",
+        "x": 170,
+        "y": 360,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "c30e8fdfb3699f75",
+        "type": "comment",
+        "z": "6572b58936c1df9d",
+        "name": "Ejector FWD",
+        "info": "1. Position\n2. Speed\n3. Pressure\n4. Back Press",
+        "x": 150,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "e70913607e055e60",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Pressure P1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20190",
+        "x": 820,
+        "y": 460,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "c7955c7495f5e0a5",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Pressure P2",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20191",
+        "x": 820,
+        "y": 500,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "eab295be18efcb7b",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Pressure P3",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20192",
+        "x": 820,
+        "y": 540,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "f4743871ef0ee052",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Time P1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20195",
+        "x": 800,
+        "y": 580,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "96d158378f14dc84",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Time P2",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20196",
+        "x": 800,
+        "y": 620,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "ea320d8395ed1c66",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Time P3",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20197",
+        "x": 800,
+        "y": 660,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "1d266f4381609cf9",
+        "type": "comment",
+        "z": "6572b58936c1df9d",
+        "name": "HOLDING",
+        "info": "1. Position\n2. Speed\n3. Pressure\n4. Back Press",
+        "x": 780,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "bbb7758058a22f0c",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Pressure S1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20250",
+        "x": 380,
+        "y": 460,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "afac19e0b88b0122",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Pressure S2",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20252",
+        "x": 380,
+        "y": 500,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "d183f4d69bdc3359",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Pressure S3",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20252",
+        "x": 380,
+        "y": 540,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "5c16638d758e2852",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Pressure SE",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20255",
+        "x": 380,
+        "y": 580,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "a14603da5c6ab294",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Position S2",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20257",
+        "x": 370,
+        "y": 660,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "d21d35d34d358bc8",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Position S3",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20258",
+        "x": 170,
+        "y": 460,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "dd9bcb4e68ee70ee",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "PositionSE",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20261",
+        "x": 170,
+        "y": 500,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "e22bff14bd9121f2",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Speed S1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20265",
+        "x": 170,
+        "y": 540,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "81d33ef1c5222695",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Speed S2",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20266",
+        "x": 170,
+        "y": 580,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "99fb6ee699feae57",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Speed S3",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20267",
+        "x": 170,
+        "y": 620,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "2a88babaaad47ac9",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Speed SE ",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20270",
+        "x": 170,
+        "y": 660,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "efe4f773890ef8cd",
+        "type": "comment",
+        "z": "6572b58936c1df9d",
+        "name": "INJECT",
+        "info": "1. Position\n2. Speed\n3. Pressure\n4. Back Press",
+        "x": 130,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "055dad9971eefc18",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Position S1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20256",
+        "x": 370,
+        "y": 620,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "308d91291c054318",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Hold.Speed",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20596",
+        "x": 810,
+        "y": 700,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "3e76f7751dd164d0",
+        "type": "comment",
+        "z": "6572b58936c1df9d",
+        "name": "Ejector BWD",
+        "info": "1. Position\n2. Speed\n3. Pressure\n4. Back Press",
+        "x": 350,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "459080ef8af35e8a",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Cushion",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20505",
+        "x": 600,
+        "y": 460,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "c92d19898a868534",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Cycle Time",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20506",
+        "x": 610,
+        "y": 500,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "24359bc59dad8692",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "ActInjTime",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20507",
+        "x": 610,
+        "y": 540,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "26e3c426e9146e63",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "PlastTime",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20511",
+        "x": 610,
+        "y": 580,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "1521998e3f8f4a27",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "d": true,
+        "name": "Inj Start Pos",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20509",
+        "x": 620,
+        "y": 620,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "2208fe5f59fc492f",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "d": true,
+        "name": "Min Cushion Pos",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20510",
+        "x": 630,
+        "y": 660,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "6357860d3ecf2cbe",
+        "type": "comment",
+        "z": "6572b58936c1df9d",
+        "name": "NOTE",
+        "info": "1. Position\n2. Speed\n3. Pressure\n4. Back Press",
+        "x": 570,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "bb8d786d390d8080",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Set Tonase",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20049",
+        "x": 610,
+        "y": 700,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "3012a20508771beb",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Position S1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20306",
+        "x": 1130,
+        "y": 480,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "e58d4421cc46c726",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Position S2",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20307",
+        "x": 1130,
+        "y": 520,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "9d42ed617a8b0d38",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Position S3",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20308",
+        "x": 1130,
+        "y": 560,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "bcd7903804709b6b",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Position LP",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20309",
+        "x": 1130,
+        "y": 600,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "8774c29b0088733b",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Position HP",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20310",
+        "x": 1130,
+        "y": 640,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "37b91e3984aea804",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Position SE",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20311",
+        "x": 1130,
+        "y": 680,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "663c290c23d85f93",
+        "type": "comment",
+        "z": "6572b58936c1df9d",
+        "name": "Close Mold",
+        "info": "1. Position\n2. Speed\n3. Pressure\n4. Back Press",
+        "x": 1100,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "3037d4ba1aac0487",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Speed S1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20314",
+        "x": 1310,
+        "y": 480,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "24e6d3ce1888d77d",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Speed S2",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20315",
+        "x": 1310,
+        "y": 520,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "83c89649dd962199",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Speed S3",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20316",
+        "x": 1310,
+        "y": 560,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "57da31dcb0d789c0",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Speed LP",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20317",
+        "x": 1310,
+        "y": 600,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "5a8579a15c252903",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Speed HP",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20318",
+        "x": 1310,
+        "y": 640,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "cc66d6e0cf40c64e",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Speed SE",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20319",
+        "x": 1310,
+        "y": 680,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "d28156e4f2a2f3f9",
+        "type": "OpcUa-Client",
+        "z": "6572b58936c1df9d",
+        "endpoint": "532641d33b405b7a",
+        "action": "read",
+        "deadbandtype": "a",
+        "deadbandvalue": 0,
+        "time": 5,
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "useTransport": false,
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "OPC UA READ",
+        "applicationName": "",
+        "applicationUri": "",
+        "x": 1650,
+        "y": 500,
+        "wires": [
+            [
+                "6158a18c40ccd0c4"
+            ],
+            [
+                "c8157340ac207777"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "546703a7b05ced56",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Position S1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20330",
+        "x": 170,
+        "y": 800,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "b357adc6d7d2d435",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Position S2",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20331",
+        "x": 170,
+        "y": 840,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "17d121118fa5fe4d",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Position S3",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20332",
+        "x": 170,
+        "y": 880,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "c3bc4cf1bf64cd47",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Position S4",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20333",
+        "x": 170,
+        "y": 920,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "3985640513ade5be",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Position S5",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20334",
+        "x": 170,
+        "y": 960,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "e1370a717f2d3662",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Position SE",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20335",
+        "x": 170,
+        "y": 1000,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "cb44039624a01948",
+        "type": "comment",
+        "z": "6572b58936c1df9d",
+        "name": "Open Mold",
+        "info": "1. Position\n2. Speed\n3. Pressure\n4. Back Press",
+        "x": 140,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "f3e2019de3f2dff7",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Speed S1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20337",
+        "x": 350,
+        "y": 800,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "b801f27d0cbd6151",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Speed S2",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20338",
+        "x": 350,
+        "y": 840,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "6a06429546e86495",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Speed S3",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20339",
+        "x": 350,
+        "y": 880,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "c89d67d5bc479c5a",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Speed S4",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20340",
+        "x": 350,
+        "y": 920,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "a9de6ae98bd80ed7",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Speed S5",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20341",
+        "x": 350,
+        "y": 960,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "76635594156bb9da",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Speed SE",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20342",
+        "x": 350,
+        "y": 1000,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "e7760aa9c5734d04",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Re Zone 1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20556",
+        "x": 1130,
+        "y": 780,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "2d78dfa328c57320",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Re Zone 2",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20557",
+        "x": 1130,
+        "y": 820,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "370261d840cab7ab",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Re Zone 3",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20558",
+        "x": 1130,
+        "y": 860,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "f2ae45929bdb01b7",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Re Zone 5",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20560",
+        "x": 1130,
+        "y": 940,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "89fb470741dc4cb4",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Re Zone 4",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20559",
+        "x": 1130,
+        "y": 900,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "c177972fd19a34c4",
+        "type": "comment",
+        "z": "6572b58936c1df9d",
+        "name": "TEMPERATURE",
+        "info": "1. Position\n2. Speed\n3. Pressure\n4. Back Press",
+        "x": 1120,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "b1995c3d86ec1394",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Hopper Set",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "600",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "ns=2;i=20611",
+        "x": 610,
+        "y": 800,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "eb5e85b4c3d01b62",
+        "type": "comment",
+        "z": "6572b58936c1df9d",
+        "name": "FRED",
+        "info": "Summary Injection Settings Fred",
+        "x": 570,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "6acf704398651168",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Hopper Max",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "600",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "ns=2;i=20612",
+        "x": 620,
+        "y": 840,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "8136a0a36f883710",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Hopper Min",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "600",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "ns=2;i=20613",
+        "x": 610,
+        "y": 880,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "0cce8f26561911cf",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Carriage Backward SE",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "600",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "ns=2;i=20028",
+        "x": 650,
+        "y": 920,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "a3e5070bed34a299",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Inject Start Post",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "600",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "ns=2;i=20509",
+        "x": 810,
+        "y": 920,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "9b8a493e56af0b13",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Min Cushion Post",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "600",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "ns=2;i=20510",
+        "x": 810,
+        "y": 800,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "258fce48c255cb8c",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "V/P Position",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "600",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "ns=2;i=20512",
+        "x": 800,
+        "y": 840,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "72844acfec8126d1",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "V/P Time",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "600",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "ns=2;i=20514",
+        "x": 790,
+        "y": 880,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "4c3bdda954e9a1ad",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Re Zone 6",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20561",
+        "x": 1130,
+        "y": 980,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "a8f092f0248c63d4",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Set Zone 1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20564",
+        "x": 1310,
+        "y": 780,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "30cfc5346c0c7080",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Set Zone 2",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20565",
+        "x": 1310,
+        "y": 820,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "4e00cb273540eea7",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Set Zone 3",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20566",
+        "x": 1310,
+        "y": 860,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "8080280c1e14a8e0",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Set Zone 4",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20567",
+        "x": 1310,
+        "y": 900,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "094baada9eb0a41b",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Set Zone 5",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20568",
+        "x": 1310,
+        "y": 940,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "13808af41048f2ba",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Set Zone 6",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20569",
+        "x": 1310,
+        "y": 980,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "45326b924b3feda3",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "Hopper Real",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "600",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "ns=2;i=20610",
+        "x": 1140,
+        "y": 1020,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "93b2381e177bf98a",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "SuckBackAftChrg Position",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "600",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "ns=2;i=20554",
+        "x": 1380,
+        "y": 1020,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "e5ecc7f1468b07a1",
+        "type": "inject",
+        "z": "6572b58936c1df9d",
+        "name": "SuckBackAftChrg Velocity",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "600",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "ns=2;i=20555",
+        "x": 1180,
+        "y": 1060,
+        "wires": [
+            [
+                "d28156e4f2a2f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "e83540168bc9bc35",
+        "type": "function",
+        "z": "6572b58936c1df9d",
+        "name": "Prepare Bulk SQL",
+        "func": "const globalKeys = global.keys();\nconst paramsetKeys = globalKeys.filter(key => key.startsWith(\"paramset_\"));\n\nif (paramsetKeys.length === 0) {\n    node.status({ fill: \"red\", shape: \"ring\", text: \"No data to insert\" });\n    return null;\n}\n\nlet messages = [];\n\nparamsetKeys.forEach(key => {\n    const mchId = key.replace(\"paramset_\", \"\");\n    const cleanData = global.get(key);\n\n    // Pastikan data ada isinya sebelum di-insert\n    if (cleanData && Object.keys(cleanData).length > 0) {\n        const paramsetString = JSON.stringify(cleanData);\n\n        messages.push({\n            // String SQL HARUS ada di payload agar dibaca oleh node MSSQL\n            payload: `INSERT INTO MachineParameterSettingTRX (machineId, paramset, created_at) VALUES ('${mchId}', '${paramsetString}', GETDATE())`\n        });\n    }\n});\n\nif (messages.length > 0) {\n    node.status({ fill: \"green\", shape: \"dot\", text: \"Prepared \" + messages.length + \" machines\" });\n    // Mengembalikan array di dalam array untuk Bulk Messaging\n    return [messages];\n} else {\n    node.status({ fill: \"yellow\", shape: \"ring\", text: \"Data keys exist but objects are empty\" });\n    return null;\n}",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1850,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "52a3fa999652a89e",
+        "type": "comment",
+        "z": "6572b58936c1df9d",
+        "name": "INSERT DATA SQL",
+        "info": "",
+        "x": 1690,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "a81c3948770c3736",
+        "type": "comment",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "name": "Holding",
+        "info": "1. Pressure\n2. Time\n3. Hold.Speed",
+        "x": 110,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "9aa1c1c37f73720b",
+        "type": "comment",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "name": "Temperature",
+        "info": "1. TemperatureSet1, TemperatureSet2\n   TemperatureSet3, TemperatureSet4\n   TemperatureSet5, TemperatureSet6\n   Hopper\n\n2. TemperatureActual1, TemperatureActual2\n   TemperatureActual3, TemperatureActual4\n   TemperatureActual5, TemperatureActual6\n   Hopper",
+        "x": 1170,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "5db0b1c22cf5ed92",
+        "type": "inject",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "TempReal1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20556",
+        "x": 1170,
+        "y": 760,
+        "wires": [
+            [
+                "c95e0d7433aae1db"
+            ]
+        ]
+    },
+    {
+        "id": "c95e0d7433aae1db",
+        "type": "OpcUa-Client",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "endpoint": "532641d33b405b7a",
+        "action": "read",
+        "deadbandtype": "a",
+        "deadbandvalue": 0,
+        "time": 5,
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "useTransport": false,
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "OPC UA READ",
+        "applicationName": "",
+        "applicationUri": "",
+        "x": 1430,
+        "y": 760,
+        "wires": [
+            [
+                "4fe1365bc45f10ca"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "4fe1365bc45f10ca",
+        "type": "function",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "Format Value",
+        "func": "let val = msg.payload;\n\nif (typeof val === \"object\" && val !== null && \"value\" in val) {\n    val = val.value;\n}\n\nmsg.payload = {\n    timestamp: new Date().toISOString(),\n    nodeId: msg.topic,\n    value: val\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1650,
+        "y": 760,
+        "wires": [
+            [
+                "2b0453a1c46572a7"
+            ]
+        ]
+    },
+    {
+        "id": "2b0453a1c46572a7",
+        "type": "debug",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "HASIL POLLING",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 1880,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "5fbfaee642323ca5",
+        "type": "inject",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "TempReal2",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20557",
+        "x": 1170,
+        "y": 860,
+        "wires": [
+            [
+                "2134cd996a28d9ec"
+            ]
+        ]
+    },
+    {
+        "id": "2134cd996a28d9ec",
+        "type": "OpcUa-Client",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "endpoint": "532641d33b405b7a",
+        "action": "read",
+        "deadbandtype": "a",
+        "deadbandvalue": 0,
+        "time": 5,
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "useTransport": false,
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "OPC UA READ",
+        "applicationName": "",
+        "applicationUri": "",
+        "x": 1430,
+        "y": 860,
+        "wires": [
+            [
+                "017eaed6d23889d7"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "017eaed6d23889d7",
+        "type": "function",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "Format Value",
+        "func": "let val = msg.payload;\n\nif (typeof val === \"object\" && val !== null && \"value\" in val) {\n    val = val.value;\n}\n\nmsg.payload = {\n    timestamp: new Date().toISOString(),\n    nodeId: msg.topic,\n    value: val\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1650,
+        "y": 860,
+        "wires": [
+            [
+                "6d9ce8108befec60"
+            ]
+        ]
+    },
+    {
+        "id": "6d9ce8108befec60",
+        "type": "debug",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "HASIL POLLING",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 1880,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "016fa9aa2b353d9b",
+        "type": "inject",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "TempReal3",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20558",
+        "x": 1170,
+        "y": 940,
+        "wires": [
+            [
+                "28ae37101e4bc73f"
+            ]
+        ]
+    },
+    {
+        "id": "28ae37101e4bc73f",
+        "type": "OpcUa-Client",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "endpoint": "532641d33b405b7a",
+        "action": "read",
+        "deadbandtype": "a",
+        "deadbandvalue": 0,
+        "time": 5,
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "useTransport": false,
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "OPC UA READ",
+        "applicationName": "",
+        "applicationUri": "",
+        "x": 1430,
+        "y": 940,
+        "wires": [
+            [
+                "db8423d2dd6dc6a7"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "db8423d2dd6dc6a7",
+        "type": "function",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "Format Value",
+        "func": "let val = msg.payload;\n\nif (typeof val === \"object\" && val !== null && \"value\" in val) {\n    val = val.value;\n}\n\nmsg.payload = {\n    timestamp: new Date().toISOString(),\n    nodeId: msg.topic,\n    value: val\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1650,
+        "y": 940,
+        "wires": [
+            [
+                "ee50ce7d64c20346"
+            ]
+        ]
+    },
+    {
+        "id": "ee50ce7d64c20346",
+        "type": "debug",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "HASIL POLLING",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 1880,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "1e5a08865d68bb8f",
+        "type": "inject",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "TempReal4",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20559",
+        "x": 1170,
+        "y": 1040,
+        "wires": [
+            [
+                "e5487126bf3b76ff"
+            ]
+        ]
+    },
+    {
+        "id": "e5487126bf3b76ff",
+        "type": "OpcUa-Client",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "endpoint": "532641d33b405b7a",
+        "action": "read",
+        "deadbandtype": "a",
+        "deadbandvalue": 0,
+        "time": 5,
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "useTransport": false,
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "OPC UA READ",
+        "applicationName": "",
+        "applicationUri": "",
+        "x": 1430,
+        "y": 1040,
+        "wires": [
+            [
+                "fe0dc29011497e4f"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "fe0dc29011497e4f",
+        "type": "function",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "Format Value",
+        "func": "let val = msg.payload;\n\nif (typeof val === \"object\" && val !== null && \"value\" in val) {\n    val = val.value;\n}\n\nmsg.payload = {\n    timestamp: new Date().toISOString(),\n    nodeId: msg.topic,\n    value: val\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1650,
+        "y": 1040,
+        "wires": [
+            [
+                "85d8436b5e138d39"
+            ]
+        ]
+    },
+    {
+        "id": "85d8436b5e138d39",
+        "type": "debug",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "HASIL POLLING",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 1880,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "369f320bfa814031",
+        "type": "inject",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "TempReal5",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20560",
+        "x": 1170,
+        "y": 1140,
+        "wires": [
+            [
+                "22108fadab84920c"
+            ]
+        ]
+    },
+    {
+        "id": "22108fadab84920c",
+        "type": "OpcUa-Client",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "endpoint": "532641d33b405b7a",
+        "action": "read",
+        "deadbandtype": "a",
+        "deadbandvalue": 0,
+        "time": 5,
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "useTransport": false,
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "OPC UA READ",
+        "applicationName": "",
+        "applicationUri": "",
+        "x": 1430,
+        "y": 1140,
+        "wires": [
+            [
+                "45ba9d7b08676afb"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "45ba9d7b08676afb",
+        "type": "function",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "Format Value",
+        "func": "let val = msg.payload;\n\nif (typeof val === \"object\" && val !== null && \"value\" in val) {\n    val = val.value;\n}\n\nmsg.payload = {\n    timestamp: new Date().toISOString(),\n    nodeId: msg.topic,\n    value: val\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1650,
+        "y": 1140,
+        "wires": [
+            [
+                "217cefa3738adeec"
+            ]
+        ]
+    },
+    {
+        "id": "217cefa3738adeec",
+        "type": "debug",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "HASIL POLLING",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 1880,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "df11b94641842cd8",
+        "type": "inject",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "TempReal6",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20061",
+        "x": 1170,
+        "y": 1220,
+        "wires": [
+            [
+                "c674c66b571a050b"
+            ]
+        ]
+    },
+    {
+        "id": "c674c66b571a050b",
+        "type": "OpcUa-Client",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "endpoint": "532641d33b405b7a",
+        "action": "read",
+        "deadbandtype": "a",
+        "deadbandvalue": 0,
+        "time": 5,
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "useTransport": false,
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "OPC UA READ",
+        "applicationName": "",
+        "applicationUri": "",
+        "x": 1430,
+        "y": 1220,
+        "wires": [
+            [
+                "7189cb079d413d1a"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "7189cb079d413d1a",
+        "type": "function",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "Format Value",
+        "func": "let val = msg.payload;\n\nif (typeof val === \"object\" && val !== null && \"value\" in val) {\n    val = val.value;\n}\n\nmsg.payload = {\n    timestamp: new Date().toISOString(),\n    nodeId: msg.topic,\n    value: val\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1650,
+        "y": 1220,
+        "wires": [
+            [
+                "d8cd4d74d457417a"
+            ]
+        ]
+    },
+    {
+        "id": "d8cd4d74d457417a",
+        "type": "debug",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "HASIL POLLING",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 1880,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "b2ae02448b021845",
+        "type": "inject",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "TempSet1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20564",
+        "x": 1170,
+        "y": 1380,
+        "wires": [
+            [
+                "e3b70b861aae0e60"
+            ]
+        ]
+    },
+    {
+        "id": "e3b70b861aae0e60",
+        "type": "OpcUa-Client",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "endpoint": "532641d33b405b7a",
+        "action": "read",
+        "deadbandtype": "a",
+        "deadbandvalue": 0,
+        "time": 5,
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "useTransport": false,
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "OPC UA READ",
+        "applicationName": "",
+        "applicationUri": "",
+        "x": 1430,
+        "y": 1380,
+        "wires": [
+            [
+                "1a167e28f0610827"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "1a167e28f0610827",
+        "type": "function",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "Format Value",
+        "func": "let val = msg.payload;\n\nif (typeof val === \"object\" && val !== null && \"value\" in val) {\n    val = val.value;\n}\n\nmsg.payload = {\n    timestamp: new Date().toISOString(),\n    nodeId: msg.topic,\n    value: val\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1650,
+        "y": 1380,
+        "wires": [
+            [
+                "ee36e249b4ddf2ef"
+            ]
+        ]
+    },
+    {
+        "id": "ee36e249b4ddf2ef",
+        "type": "debug",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "HASIL POLLING",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 1880,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "1d52b4e83e28b8e1",
+        "type": "inject",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "TempSet2",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20565",
+        "x": 1170,
+        "y": 1480,
+        "wires": [
+            [
+                "b38a04ece008fcb7"
+            ]
+        ]
+    },
+    {
+        "id": "b38a04ece008fcb7",
+        "type": "OpcUa-Client",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "endpoint": "532641d33b405b7a",
+        "action": "read",
+        "deadbandtype": "a",
+        "deadbandvalue": 0,
+        "time": 5,
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "useTransport": false,
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "OPC UA READ",
+        "applicationName": "",
+        "applicationUri": "",
+        "x": 1430,
+        "y": 1480,
+        "wires": [
+            [
+                "b3c6f51295795c30"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "b3c6f51295795c30",
+        "type": "function",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "Format Value",
+        "func": "let val = msg.payload;\n\nif (typeof val === \"object\" && val !== null && \"value\" in val) {\n    val = val.value;\n}\n\nmsg.payload = {\n    timestamp: new Date().toISOString(),\n    nodeId: msg.topic,\n    value: val\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1650,
+        "y": 1480,
+        "wires": [
+            [
+                "541dead65c6eba4b"
+            ]
+        ]
+    },
+    {
+        "id": "541dead65c6eba4b",
+        "type": "debug",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "HASIL POLLING",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 1880,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "7fdf3452ee545d48",
+        "type": "inject",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "TempSet3",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20566",
+        "x": 1170,
+        "y": 1560,
+        "wires": [
+            [
+                "b574b39b6460d93a"
+            ]
+        ]
+    },
+    {
+        "id": "b574b39b6460d93a",
+        "type": "OpcUa-Client",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "endpoint": "532641d33b405b7a",
+        "action": "read",
+        "deadbandtype": "a",
+        "deadbandvalue": 0,
+        "time": 5,
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "useTransport": false,
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "OPC UA READ",
+        "applicationName": "",
+        "applicationUri": "",
+        "x": 1430,
+        "y": 1560,
+        "wires": [
+            [
+                "b0c6a3a5dc7554eb"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "b0c6a3a5dc7554eb",
+        "type": "function",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "Format Value",
+        "func": "let val = msg.payload;\n\nif (typeof val === \"object\" && val !== null && \"value\" in val) {\n    val = val.value;\n}\n\nmsg.payload = {\n    timestamp: new Date().toISOString(),\n    nodeId: msg.topic,\n    value: val\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1650,
+        "y": 1560,
+        "wires": [
+            [
+                "7e84637652d6b107"
+            ]
+        ]
+    },
+    {
+        "id": "7e84637652d6b107",
+        "type": "debug",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "HASIL POLLING",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 1880,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "5b446c8b62498c94",
+        "type": "inject",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "TempSet4",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20567",
+        "x": 1170,
+        "y": 1660,
+        "wires": [
+            [
+                "bf5e5450a9b37540"
+            ]
+        ]
+    },
+    {
+        "id": "bf5e5450a9b37540",
+        "type": "OpcUa-Client",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "endpoint": "532641d33b405b7a",
+        "action": "read",
+        "deadbandtype": "a",
+        "deadbandvalue": 0,
+        "time": 5,
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "useTransport": false,
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "OPC UA READ",
+        "applicationName": "",
+        "applicationUri": "",
+        "x": 1430,
+        "y": 1660,
+        "wires": [
+            [
+                "ec4d47450551700d"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "ec4d47450551700d",
+        "type": "function",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "Format Value",
+        "func": "let val = msg.payload;\n\nif (typeof val === \"object\" && val !== null && \"value\" in val) {\n    val = val.value;\n}\n\nmsg.payload = {\n    timestamp: new Date().toISOString(),\n    nodeId: msg.topic,\n    value: val\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1650,
+        "y": 1660,
+        "wires": [
+            [
+                "923203df57543434"
+            ]
+        ]
+    },
+    {
+        "id": "923203df57543434",
+        "type": "debug",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "HASIL POLLING",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 1880,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "f34c1721264d77cc",
+        "type": "inject",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "TempSet5",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20568",
+        "x": 1170,
+        "y": 1760,
+        "wires": [
+            [
+                "1e7efb9178ddda5d"
+            ]
+        ]
+    },
+    {
+        "id": "1e7efb9178ddda5d",
+        "type": "OpcUa-Client",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "endpoint": "532641d33b405b7a",
+        "action": "read",
+        "deadbandtype": "a",
+        "deadbandvalue": 0,
+        "time": 5,
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "useTransport": false,
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "OPC UA READ",
+        "applicationName": "",
+        "applicationUri": "",
+        "x": 1430,
+        "y": 1760,
+        "wires": [
+            [
+                "859bc2019987c422"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "859bc2019987c422",
+        "type": "function",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "Format Value",
+        "func": "let val = msg.payload;\n\nif (typeof val === \"object\" && val !== null && \"value\" in val) {\n    val = val.value;\n}\n\nmsg.payload = {\n    timestamp: new Date().toISOString(),\n    nodeId: msg.topic,\n    value: val\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1650,
+        "y": 1760,
+        "wires": [
+            [
+                "621ad12de6dd8c2a"
+            ]
+        ]
+    },
+    {
+        "id": "621ad12de6dd8c2a",
+        "type": "debug",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "HASIL POLLING",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 1880,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "2ac29df49c4a4b97",
+        "type": "inject",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "TempSet6",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20569",
+        "x": 1170,
+        "y": 1840,
+        "wires": [
+            [
+                "e0b34f591aab6383"
+            ]
+        ]
+    },
+    {
+        "id": "e0b34f591aab6383",
+        "type": "OpcUa-Client",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "endpoint": "532641d33b405b7a",
+        "action": "read",
+        "deadbandtype": "a",
+        "deadbandvalue": 0,
+        "time": 5,
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "useTransport": false,
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "OPC UA READ",
+        "applicationName": "",
+        "applicationUri": "",
+        "x": 1430,
+        "y": 1840,
+        "wires": [
+            [
+                "f69f42d6883290b7"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "f69f42d6883290b7",
+        "type": "function",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "Format Value",
+        "func": "let val = msg.payload;\n\nif (typeof val === \"object\" && val !== null && \"value\" in val) {\n    val = val.value;\n}\n\nmsg.payload = {\n    timestamp: new Date().toISOString(),\n    nodeId: msg.topic,\n    value: val\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1650,
+        "y": 1840,
+        "wires": [
+            [
+                "738d3d7b58561209"
+            ]
+        ]
+    },
+    {
+        "id": "738d3d7b58561209",
+        "type": "debug",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "5a3c32fae23d768c",
+        "name": "HASIL POLLING",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 1880,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "69f3d3afcec24806",
+        "type": "inject",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "name": "HoldingPressure1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20190",
+        "x": 170,
+        "y": 1660,
+        "wires": [
+            [
+                "8648a5107dfd006a"
+            ]
+        ]
+    },
+    {
+        "id": "8648a5107dfd006a",
+        "type": "OpcUa-Client",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "endpoint": "532641d33b405b7a",
+        "action": "read",
+        "deadbandtype": "a",
+        "deadbandvalue": 0,
+        "time": 5,
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "useTransport": false,
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "OPC UA READ",
+        "applicationName": "",
+        "applicationUri": "",
+        "x": 410,
+        "y": 1660,
+        "wires": [
+            [
+                "7c094b55e02d4819"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "7c094b55e02d4819",
+        "type": "function",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "name": "Format Value",
+        "func": "let val = msg.payload;\n\nif (typeof val === \"object\" && val !== null && \"value\" in val) {\n    val = val.value;\n}\n\nmsg.payload = {\n    timestamp: new Date().toISOString(),\n    nodeId: msg.topic,\n    value: val\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 1660,
+        "wires": [
+            [
+                "94a66e1d20115232"
+            ]
+        ]
+    },
+    {
+        "id": "94a66e1d20115232",
+        "type": "debug",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "name": "HASIL POLLING",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 860,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "606aa22325e7ba91",
+        "type": "inject",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "name": "HoldingPressure2",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20191",
+        "x": 170,
+        "y": 1760,
+        "wires": [
+            [
+                "347ff022da081956"
+            ]
+        ]
+    },
+    {
+        "id": "347ff022da081956",
+        "type": "OpcUa-Client",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "endpoint": "532641d33b405b7a",
+        "action": "read",
+        "deadbandtype": "a",
+        "deadbandvalue": 0,
+        "time": 5,
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "useTransport": false,
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "OPC UA READ",
+        "applicationName": "",
+        "applicationUri": "",
+        "x": 410,
+        "y": 1760,
+        "wires": [
+            [
+                "862782d7413e1766"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "862782d7413e1766",
+        "type": "function",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "name": "Format Value",
+        "func": "let val = msg.payload;\n\nif (typeof val === \"object\" && val !== null && \"value\" in val) {\n    val = val.value;\n}\n\nmsg.payload = {\n    timestamp: new Date().toISOString(),\n    nodeId: msg.topic,\n    value: val\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 630,
+        "y": 1760,
+        "wires": [
+            [
+                "511f146f7bdc84e9"
+            ]
+        ]
+    },
+    {
+        "id": "511f146f7bdc84e9",
+        "type": "debug",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "name": "HASIL POLLING",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 860,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "e6ff3e3f4df87f4f",
+        "type": "inject",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "name": "HoldingPressure3",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20192",
+        "x": 170,
+        "y": 1840,
+        "wires": [
+            [
+                "fff072acba24fd88"
+            ]
+        ]
+    },
+    {
+        "id": "fff072acba24fd88",
+        "type": "OpcUa-Client",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "endpoint": "532641d33b405b7a",
+        "action": "read",
+        "deadbandtype": "a",
+        "deadbandvalue": 0,
+        "time": 5,
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "useTransport": false,
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "OPC UA READ",
+        "applicationName": "",
+        "applicationUri": "",
+        "x": 410,
+        "y": 1840,
+        "wires": [
+            [
+                "e891a8d81405ef0a"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "e891a8d81405ef0a",
+        "type": "function",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "name": "Format Value",
+        "func": "let val = msg.payload;\n\nif (typeof val === \"object\" && val !== null && \"value\" in val) {\n    val = val.value;\n}\n\nmsg.payload = {\n    timestamp: new Date().toISOString(),\n    nodeId: msg.topic,\n    value: val\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 630,
+        "y": 1840,
+        "wires": [
+            [
+                "a1e1efb1d53c10e3"
+            ]
+        ]
+    },
+    {
+        "id": "a1e1efb1d53c10e3",
+        "type": "debug",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "name": "HASIL POLLING",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 860,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "3c4a5d64f0ef4795",
+        "type": "inject",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "name": "HoldingTime1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20195",
+        "x": 160,
+        "y": 1940,
+        "wires": [
+            [
+                "db15b9aa8358e575"
+            ]
+        ]
+    },
+    {
+        "id": "db15b9aa8358e575",
+        "type": "OpcUa-Client",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "endpoint": "532641d33b405b7a",
+        "action": "read",
+        "deadbandtype": "a",
+        "deadbandvalue": 0,
+        "time": 5,
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "useTransport": false,
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "OPC UA READ",
+        "applicationName": "",
+        "applicationUri": "",
+        "x": 410,
+        "y": 1940,
+        "wires": [
+            [
+                "72207e9457a42c7e"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "72207e9457a42c7e",
+        "type": "function",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "name": "Format Value",
+        "func": "let val = msg.payload;\n\nif (typeof val === \"object\" && val !== null && \"value\" in val) {\n    val = val.value;\n}\n\nmsg.payload = {\n    timestamp: new Date().toISOString(),\n    nodeId: msg.topic,\n    value: val\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 1940,
+        "wires": [
+            [
+                "56e8e931cdfef4d2"
+            ]
+        ]
+    },
+    {
+        "id": "56e8e931cdfef4d2",
+        "type": "debug",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "name": "HASIL POLLING",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 860,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "105ac7aced4c1be9",
+        "type": "inject",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "name": "HoldingTime2",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20196",
+        "x": 160,
+        "y": 2040,
+        "wires": [
+            [
+                "03bd9bdc909a2afc"
+            ]
+        ]
+    },
+    {
+        "id": "03bd9bdc909a2afc",
+        "type": "OpcUa-Client",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "endpoint": "532641d33b405b7a",
+        "action": "read",
+        "deadbandtype": "a",
+        "deadbandvalue": 0,
+        "time": 5,
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "useTransport": false,
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "OPC UA READ",
+        "applicationName": "",
+        "applicationUri": "",
+        "x": 410,
+        "y": 2040,
+        "wires": [
+            [
+                "eb3fa56f516a0bba"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "eb3fa56f516a0bba",
+        "type": "function",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "name": "Format Value",
+        "func": "let val = msg.payload;\n\nif (typeof val === \"object\" && val !== null && \"value\" in val) {\n    val = val.value;\n}\n\nmsg.payload = {\n    timestamp: new Date().toISOString(),\n    nodeId: msg.topic,\n    value: val\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 630,
+        "y": 2040,
+        "wires": [
+            [
+                "d4dbc5163f17b5e1"
+            ]
+        ]
+    },
+    {
+        "id": "d4dbc5163f17b5e1",
+        "type": "debug",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "name": "HASIL POLLING",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 860,
+        "y": 2040,
+        "wires": []
+    },
+    {
+        "id": "bef1f687490b6904",
+        "type": "inject",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "name": "HoldingTime3",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20197",
+        "x": 160,
+        "y": 2120,
+        "wires": [
+            [
+                "820971b1ca2ca751"
+            ]
+        ]
+    },
+    {
+        "id": "820971b1ca2ca751",
+        "type": "OpcUa-Client",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "endpoint": "532641d33b405b7a",
+        "action": "read",
+        "deadbandtype": "a",
+        "deadbandvalue": 0,
+        "time": 5,
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "useTransport": false,
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "OPC UA READ",
+        "applicationName": "",
+        "applicationUri": "",
+        "x": 410,
+        "y": 2120,
+        "wires": [
+            [
+                "96d68798af7de6e6"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "96d68798af7de6e6",
+        "type": "function",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "name": "Format Value",
+        "func": "let val = msg.payload;\n\nif (typeof val === \"object\" && val !== null && \"value\" in val) {\n    val = val.value;\n}\n\nmsg.payload = {\n    timestamp: new Date().toISOString(),\n    nodeId: msg.topic,\n    value: val\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 630,
+        "y": 2120,
+        "wires": [
+            [
+                "1123c73952d8b704"
+            ]
+        ]
+    },
+    {
+        "id": "1123c73952d8b704",
+        "type": "debug",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "name": "HASIL POLLING",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 860,
+        "y": 2120,
+        "wires": []
+    },
+    {
+        "id": "6a43ec83c48a1356",
+        "type": "inject",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "name": "Hold.Speed.Limit",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20596",
+        "x": 170,
+        "y": 2200,
+        "wires": [
+            [
+                "8601f924e96a5f84"
+            ]
+        ]
+    },
+    {
+        "id": "8601f924e96a5f84",
+        "type": "OpcUa-Client",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "endpoint": "532641d33b405b7a",
+        "action": "read",
+        "deadbandtype": "a",
+        "deadbandvalue": 0,
+        "time": 5,
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "useTransport": false,
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "OPC UA READ",
+        "applicationName": "",
+        "applicationUri": "",
+        "x": 410,
+        "y": 2200,
+        "wires": [
+            [
+                "8b1b22550238ecb1"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "8b1b22550238ecb1",
+        "type": "function",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "name": "Format Value",
+        "func": "let val = msg.payload;\n\nif (typeof val === \"object\" && val !== null && \"value\" in val) {\n    val = val.value;\n}\n\nmsg.payload = {\n    timestamp: new Date().toISOString(),\n    nodeId: msg.topic,\n    value: val\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 2200,
+        "wires": [
+            [
+                "a61709756dafea36"
+            ]
+        ]
+    },
+    {
+        "id": "a61709756dafea36",
+        "type": "debug",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "g": "14d51ff12638f373",
+        "name": "HASIL POLLING",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 860,
+        "y": 2200,
+        "wires": []
+    },
+    {
+        "id": "04544d7a2e8497ee",
+        "type": "inject",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "name": "Position1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20042",
+        "x": 150,
+        "y": 780,
+        "wires": [
+            [
+                "79c4daa73e212d8a"
+            ]
+        ]
+    },
+    {
+        "id": "79c4daa73e212d8a",
+        "type": "OpcUa-Client",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "endpoint": "532641d33b405b7a",
+        "action": "read",
+        "deadbandtype": "a",
+        "deadbandvalue": 0,
+        "time": 5,
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "useTransport": false,
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "OPC UA READ",
+        "applicationName": "",
+        "applicationUri": "",
+        "x": 410,
+        "y": 780,
+        "wires": [
+            [
+                "9b990268d2cc14f6"
+            ],
+            [
+                "2723feb4b0751b80",
+                "73fab0c717bc495f"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "9b990268d2cc14f6",
+        "type": "function",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "name": "Format Value",
+        "func": "const machineMap = global.get(\"machineByIp\") || {};\nconst endpoint = msg.endpoint || \"opc.tcp://192.168.140.1:4842\";\n\n// ambil IP dari endpoint\nconst ip = endpoint.replace(\"opc.tcp://\", \"\").split(\":\")[0];\nconst machine_id = machineMap[ip] || ip;\n\nmsg.payload = {\n    timestamp: new Date().toISOString(),\n    machine_id: machine_id,\n    ip: ip,\n    nodeId: msg.topic,\n    value: msg.payload\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 780,
+        "wires": [
+            [
+                "f22f43e20beae6cb"
+            ]
+        ]
+    },
+    {
+        "id": "f22f43e20beae6cb",
+        "type": "debug",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "name": "HASIL POLLING G2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "d96180a4988af8e1",
+        "type": "inject",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "name": "Position2",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20043",
+        "x": 150,
+        "y": 880,
+        "wires": [
+            [
+                "79c4daa73e212d8a"
+            ]
+        ]
+    },
+    {
+        "id": "4939a1366463610a",
+        "type": "inject",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "name": "Position3",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20044",
+        "x": 150,
+        "y": 960,
+        "wires": [
+            [
+                "79c4daa73e212d8a"
+            ]
+        ]
+    },
+    {
+        "id": "0b8f946d5b7be1f2",
+        "type": "inject",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "name": "Speed1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20046",
+        "x": 140,
+        "y": 1060,
+        "wires": [
+            [
+                "79c4daa73e212d8a"
+            ]
+        ]
+    },
+    {
+        "id": "2dc30d1b1c08d640",
+        "type": "inject",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "name": "Speed2",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20047",
+        "x": 140,
+        "y": 1160,
+        "wires": [
+            [
+                "79c4daa73e212d8a"
+            ]
+        ]
+    },
+    {
+        "id": "3e42b34f311a75a2",
+        "type": "inject",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "name": "Speed3",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.5,
+        "topic": "ns=2;i=20048",
+        "x": 140,
+        "y": 1240,
+        "wires": [
+            [
+                "79c4daa73e212d8a"
+            ]
+        ]
+    },
+    {
+        "id": "2723feb4b0751b80",
+        "type": "debug",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "name": "debug 4",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "73fab0c717bc495f",
+        "type": "function",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "name": "function 6",
+        "func": "// 1. Ambil Master Data dari Global\nconst masterData = global.get(\"MchID_MST_G_HAITIAN\") || {};\n\n// 2. Ekstrak IP dari endpoint\nconst endpoint = msg.endpoint || \"opc.tcp://unknown:4842\";\nconst ipMatch = endpoint.match(/\\/\\/(.*?):/);\nconst ip = ipMatch ? ipMatch[1] : \"0.0.0.0\";\n\n// 3. Inisialisasi variabel untuk menampung mchId yang ditemukan\nlet machine_id = null;\n\n// 4. Lakukan pencarian berdasarkan IP di dalam Master Data\nfor (let key in masterData) {\n    if (masterData[key].ip === ip) {\n        machine_id = masterData[key].mchId; // Ambil mchId jika IP cocok\n        break; // Berhenti looping jika sudah ketemu\n    }\n}\n\n// 5. Masukkan ke dalam payload\nmsg.payload = {\n    timestamp: new Date().toISOString(),\n    machine_id: machine_id,\n    ip: ip,\n    endpoint: endpoint\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 820,
+        "wires": [
+            [
+                "e6114e038817c6cb"
+            ]
+        ]
+    },
+    {
+        "id": "e6114e038817c6cb",
+        "type": "debug",
+        "z": "b05d5ef5acff6fe7",
+        "d": true,
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 820,
+        "wires": []
     }
 ]
